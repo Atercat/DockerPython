@@ -1,5 +1,6 @@
 FROM ubuntu:14.04
 ADD app.py app.py
+ADD requirements.txt requirements.txt
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt update \
     && apt install -y -q python-all python-pip
