@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:18.04
 ADD app.py app.py
 ADD requirements.txt requirements.txt
 ENV DEBIAN_FRONTEND=noninteractive
