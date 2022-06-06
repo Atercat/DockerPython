@@ -6,4 +6,4 @@ RUN apt update \
     && apt install -y -q python-all python-pip
 RUN pip install -qr requirements.txt
 EXPOSE 5000
-CMD ["python3", "app.py"]
+CMD ["python", "app.py"]
